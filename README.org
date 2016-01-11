@@ -1,0 +1,15 @@
+* Herd Guile Compiler
+  Herd (or Happy) Guile Compiler (or, for short, HGC) -- A compiler
+  for GNU Guile that allows to spread compilation of Scheme code
+  between machines over a network.
+
+  *Note* that the project is highly experimental and may contain bugs
+   or may not work as you expect.
+** Requirements
+   - [[https://www.gnu.org/software/guile/][GNU Guile]] 2.0.9
+   - [[https://github.com/artyom-poptsov/guile-ssh][Guile-SSH]] 0.9
+** Usage
+#+BEGIN_EXAMPLE
+$ cd utils
+$ ./hgc.scm file1.scm file2.scm
+#+END_EXAMPLE

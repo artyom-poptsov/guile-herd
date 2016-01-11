@@ -1,0 +1,3 @@
+* Dependency tracking
+* Allow to use more than one host for compilation
+* Load balancing
